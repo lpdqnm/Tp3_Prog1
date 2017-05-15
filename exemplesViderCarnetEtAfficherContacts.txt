@@ -1,0 +1,385 @@
+Ce programme permet de gerer un carnet de contacts.
+
+-----
+MENU
+-----
+1. AJOUTER UN CONTACT
+2. SUPPRIMER UN CONTACT
+3. VIDER LE CARNET DE CONTACTS
+4. AFFICHER LES CONTACTS
+5. QUITTER
+
+Entrez votre choix au menu : 4
+
+*************************
+* AFFICHER LES CONTACTS *
+*************************
+
+1. AFFICHER TOUS LES CONTACTS
+2. AFFICHER LES FAVORIS
+
+Entrez votre choix : 1
+
+CARNET DE CONTACTS (5)
+
+
+-----------------
+LACOSTE, mathilde
+-----------------
+
+TELEPHONE(S) : Aucun.
+
+ADRESSE : Aucune.
+
+COURRIEL : Aucun.
+
+
+Appuyez sur "ENTREE" pour continuer...
+
+--------------------------
+BERTRAND, raymond [FAVORI]
+--------------------------
+
+TELEPHONE(S) : 
+1. TEL. DOMICILE : (232) 786-8899
+2. TEL. BUREAU : (333) 989-7653, poste 24
+3. TEL. CELLULAIRE : (234) 898-6677
+
+ADRESSE : 
+126A Pierre-Maxime, apt. 4
+Sorel, Quebec, CANADA
+T7T 8H9
+
+COURRIEL : bebert@hotmail.com
+
+
+Appuyez sur "ENTREE" pour continuer...
+
+--------------------------
+LACOSTE, mathilde [FAVORI]
+--------------------------
+
+TELEPHONE(S) : 
+1. TEL. MAISON : (234) 343-7788
+
+ADRESSE : 
+5645 Berri, apt. S5
+Montreal, Quebec, CANADA
+
+COURRIEL : mat234@gmail.com
+
+
+Appuyez sur "ENTREE" pour continuer...
+
+---------------------
+CARON, Lucie [FAVORI]
+---------------------
+
+TELEPHONE(S) : 
+1. TEL. DOMICILE : 456-3456
+
+ADRESSE : 
+2345 Des Pinsons
+Montreal, Quebec, CANADA
+
+COURRIEL : Aucun.
+
+
+Appuyez sur "ENTREE" pour continuer...
+
+-----------------
+LACOSTE, mathilde
+-----------------
+
+TELEPHONE(S) : Aucun.
+
+ADRESSE : Aucune.
+
+COURRIEL : lacoste.mathilde@uqam.ca
+
+FIN DE LA LISTE DE CONTACTS.
+
+Appuyez sur "ENTREE" pour continuer...
+
+-----
+MENU
+-----
+1. AJOUTER UN CONTACT
+2. SUPPRIMER UN CONTACT
+3. VIDER LE CARNET DE CONTACTS
+4. AFFICHER LES CONTACTS
+5. QUITTER
+
+Entrez votre choix au menu : 4
+
+*************************
+* AFFICHER LES CONTACTS *
+*************************
+
+1. AFFICHER TOUS LES CONTACTS
+2. AFFICHER LES FAVORIS
+
+Entrez votre choix : 2
+
+CARNET DE CONTACTS (3)
+
+
+--------------------------
+BERTRAND, raymond [FAVORI]
+--------------------------
+
+TELEPHONE(S) : 
+1. TEL. DOMICILE : (232) 786-8899
+2. TEL. BUREAU : (333) 989-7653, poste 24
+3. TEL. CELLULAIRE : (234) 898-6677
+
+ADRESSE : 
+126A Pierre-Maxime, apt. 4
+Sorel, Quebec, CANADA
+T7T 8H9
+
+COURRIEL : bebert@hotmail.com
+
+
+Appuyez sur "ENTREE" pour continuer...
+
+--------------------------
+LACOSTE, mathilde [FAVORI]
+--------------------------
+
+TELEPHONE(S) : 
+1. TEL. MAISON : (234) 343-7788
+
+ADRESSE : 
+5645 Berri, apt. S5
+Montreal, Quebec, CANADA
+
+COURRIEL : mat234@gmail.com
+
+
+Appuyez sur "ENTREE" pour continuer...
+
+---------------------
+CARON, Lucie [FAVORI]
+---------------------
+
+TELEPHONE(S) : 
+1. TEL. DOMICILE : 456-3456
+
+ADRESSE : 
+2345 Des Pinsons
+Montreal, Quebec, CANADA
+
+COURRIEL : Aucun.
+
+FIN DE LA LISTE DE CONTACTS.
+
+Appuyez sur "ENTREE" pour continuer...
+
+-----
+MENU
+-----
+1. AJOUTER UN CONTACT
+2. SUPPRIMER UN CONTACT
+3. VIDER LE CARNET DE CONTACTS
+4. AFFICHER LES CONTACTS
+5. QUITTER
+
+Entrez votre choix au menu : 3
+Voulez-vous vraiment effacer tous les contacts (o/n) : asdf
+
+Erreur, repondez par (o)ui ou (n)on !
+Voulez-vous vraiment effacer tous les contacts (o/n) : n
+
+-----
+MENU
+-----
+1. AJOUTER UN CONTACT
+2. SUPPRIMER UN CONTACT
+3. VIDER LE CARNET DE CONTACTS
+4. AFFICHER LES CONTACTS
+5. QUITTER
+
+Entrez votre choix au menu : 4
+
+*************************
+* AFFICHER LES CONTACTS *
+*************************
+
+1. AFFICHER TOUS LES CONTACTS
+2. AFFICHER LES FAVORIS
+
+Entrez votre choix : 1
+
+CARNET DE CONTACTS (5)
+
+
+-----------------
+LACOSTE, mathilde
+-----------------
+
+TELEPHONE(S) : Aucun.
+
+ADRESSE : Aucune.
+
+COURRIEL : Aucun.
+
+
+Appuyez sur "ENTREE" pour continuer...
+
+--------------------------
+BERTRAND, raymond [FAVORI]
+--------------------------
+
+TELEPHONE(S) : 
+1. TEL. DOMICILE : (232) 786-8899
+2. TEL. BUREAU : (333) 989-7653, poste 24
+3. TEL. CELLULAIRE : (234) 898-6677
+
+ADRESSE : 
+126A Pierre-Maxime, apt. 4
+Sorel, Quebec, CANADA
+T7T 8H9
+
+COURRIEL : bebert@hotmail.com
+
+
+Appuyez sur "ENTREE" pour continuer...
+
+--------------------------
+LACOSTE, mathilde [FAVORI]
+--------------------------
+
+TELEPHONE(S) : 
+1. TEL. MAISON : (234) 343-7788
+
+ADRESSE : 
+5645 Berri, apt. S5
+Montreal, Quebec, CANADA
+
+COURRIEL : mat234@gmail.com
+
+
+Appuyez sur "ENTREE" pour continuer...
+
+---------------------
+CARON, Lucie [FAVORI]
+---------------------
+
+TELEPHONE(S) : 
+1. TEL. DOMICILE : 456-3456
+
+ADRESSE : 
+2345 Des Pinsons
+Montreal, Quebec, CANADA
+
+COURRIEL : Aucun.
+
+
+Appuyez sur "ENTREE" pour continuer...
+
+-----------------
+LACOSTE, mathilde
+-----------------
+
+TELEPHONE(S) : Aucun.
+
+ADRESSE : Aucune.
+
+COURRIEL : lacoste.mathilde@uqam.ca
+
+FIN DE LA LISTE DE CONTACTS.
+
+Appuyez sur "ENTREE" pour continuer...
+
+-----
+MENU
+-----
+1. AJOUTER UN CONTACT
+2. SUPPRIMER UN CONTACT
+3. VIDER LE CARNET DE CONTACTS
+4. AFFICHER LES CONTACTS
+5. QUITTER
+
+Entrez votre choix au menu : 3
+Voulez-vous vraiment effacer tous les contacts (o/n) : o
+
+-----
+MENU
+-----
+1. AJOUTER UN CONTACT
+2. SUPPRIMER UN CONTACT
+3. VIDER LE CARNET DE CONTACTS
+4. AFFICHER LES CONTACTS
+5. QUITTER
+
+Entrez votre choix au menu : 4
+
+*************************
+* AFFICHER LES CONTACTS *
+*************************
+
+1. AFFICHER TOUS LES CONTACTS
+2. AFFICHER LES FAVORIS
+
+Entrez votre choix : 1
+
+CARNET DE CONTACTS (0)
+
+
+FIN DE LA LISTE DE CONTACTS.
+
+Appuyez sur "ENTREE" pour continuer...
+
+-----
+MENU
+-----
+1. AJOUTER UN CONTACT
+2. SUPPRIMER UN CONTACT
+3. VIDER LE CARNET DE CONTACTS
+4. AFFICHER LES CONTACTS
+5. QUITTER
+
+Entrez votre choix au menu : 3
+Voulez-vous vraiment effacer tous les contacts (o/n) : o
+
+-----
+MENU
+-----
+1. AJOUTER UN CONTACT
+2. SUPPRIMER UN CONTACT
+3. VIDER LE CARNET DE CONTACTS
+4. AFFICHER LES CONTACTS
+5. QUITTER
+
+Entrez votre choix au menu : 4
+
+*************************
+* AFFICHER LES CONTACTS *
+*************************
+
+1. AFFICHER TOUS LES CONTACTS
+2. AFFICHER LES FAVORIS
+
+Entrez votre choix : 1
+
+CARNET DE CONTACTS (0)
+
+
+FIN DE LA LISTE DE CONTACTS.
+
+Appuyez sur "ENTREE" pour continuer...
+
+-----
+MENU
+-----
+1. AJOUTER UN CONTACT
+2. SUPPRIMER UN CONTACT
+3. VIDER LE CARNET DE CONTACTS
+4. AFFICHER LES CONTACTS
+5. QUITTER
+
+Entrez votre choix au menu : 5
+
+
+FIN NORMALE DU PROGRAMME.

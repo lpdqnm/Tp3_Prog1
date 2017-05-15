@@ -1,0 +1,416 @@
+Ce programme permet de gerer un carnet de contacts.
+
+-----
+MENU
+-----
+1. AJOUTER UN CONTACT
+2. SUPPRIMER UN CONTACT
+3. VIDER LE CARNET DE CONTACTS
+4. AFFICHER LES CONTACTS
+5. QUITTER
+
+Entrez votre choix au menu : 1
+
+**********************
+* AJOUT D'UN CONTACT *
+**********************
+
+Nom du contact : 
+
+Erreur, le nom doit contenir entre 1 et 25 caracteres... Recommencez
+Nom du contact : lacoste
+Prenom du contact : 
+
+Erreur, le prenom doit contenir entre 1 et 25 caracteres... Recommencez
+Prenom du contact : mathilde
+Voulez-vous entrez un telephone (o/n) : t
+
+Erreur, repondez par (o)ui ou (n)on !
+Voulez-vous entrez un telephone (o/n) : n
+Voulez-vous entrez une adresse (o/n) : d
+
+Erreur, repondez par (o)ui ou (n)on !
+Voulez-vous entrez une adresse (o/n) : n
+Voulez-vous entrez un courriel (o/n) : asdf
+
+Erreur, repondez par (o)ui ou (n)on !
+Voulez-vous entrez un courriel (o/n) : N
+Voulez-vous ajouter ce contact a vos favoris (o/n) : 
+
+Erreur, repondez par (o)ui ou (n)on !
+Voulez-vous ajouter ce contact a vos favoris (o/n) : N
+
+-----
+MENU
+-----
+1. AJOUTER UN CONTACT
+2. SUPPRIMER UN CONTACT
+3. VIDER LE CARNET DE CONTACTS
+4. AFFICHER LES CONTACTS
+5. QUITTER
+
+Entrez votre choix au menu : 4
+
+*************************
+* AFFICHER LES CONTACTS *
+*************************
+
+1. AFFICHER TOUS LES CONTACTS
+2. AFFICHER LES FAVORIS
+
+Entrez votre choix : 0
+
+Erreur, entrez une valeur entre 1 et 2... Recommencez.
+
+1. AFFICHER TOUS LES CONTACTS
+2. AFFICHER LES FAVORIS
+
+Entrez votre choix : w
+
+Erreur, entrez une valeur entre 1 et 2... Recommencez.
+
+1. AFFICHER TOUS LES CONTACTS
+2. AFFICHER LES FAVORIS
+
+Entrez votre choix : 1
+
+CARNET DE CONTACTS (1)
+
+
+-----------------
+LACOSTE, mathilde
+-----------------
+
+TELEPHONE(S) : Aucun.
+
+ADRESSE : Aucune.
+
+COURRIEL : Aucun.
+
+FIN DE LA LISTE DE CONTACTS.
+
+Appuyez sur "ENTREE" pour continuer...
+
+-----
+MENU
+-----
+1. AJOUTER UN CONTACT
+2. SUPPRIMER UN CONTACT
+3. VIDER LE CARNET DE CONTACTS
+4. AFFICHER LES CONTACTS
+5. QUITTER
+
+Entrez votre choix au menu : 4
+
+*************************
+* AFFICHER LES CONTACTS *
+*************************
+
+1. AFFICHER TOUS LES CONTACTS
+2. AFFICHER LES FAVORIS
+
+Entrez votre choix : 2
+
+CARNET DE CONTACTS (0)
+
+
+FIN DE LA LISTE DE CONTACTS.
+
+Appuyez sur "ENTREE" pour continuer...
+
+-----
+MENU
+-----
+1. AJOUTER UN CONTACT
+2. SUPPRIMER UN CONTACT
+3. VIDER LE CARNET DE CONTACTS
+4. AFFICHER LES CONTACTS
+5. QUITTER
+
+Entrez votre choix au menu : 1
+
+**********************
+* AJOUT D'UN CONTACT *
+**********************
+
+Nom du contact : bertrand
+Prenom du contact : raymond
+Voulez-vous entrez un telephone (o/n) : O
+Type du telephone (Tapez ENTER pour "Domicile"): 
+Numero de telephone : adf
+
+Erreur, le numero doit contenir exactement 7 ou 10 chiffres... Recommencez.
+Numero de telephone : 2327868899
+Poste telephonique (Tapez ENTER si aucun poste) : 
+Voulez-vous entrez un telephone (o/n) : o
+Type du telephone (Tapez ENTER pour "Domicile"): bureau
+Numero de telephone : 3339897653
+Poste telephonique (Tapez ENTER si aucun poste) : 24
+Voulez-vous entrez un telephone (o/n) : O
+Type du telephone (Tapez ENTER pour "Domicile"): Cellulaire
+Numero de telephone : 2348986677
+Poste telephonique (Tapez ENTER si aucun poste) : 
+Voulez-vous entrez un telephone (o/n) : N
+Voulez-vous entrez une adresse (o/n) : o
+No de porte : 
+
+Erreur, le numero de porte doit contenir entre 1 et 8 caracteres... Recommencez.
+No de porte : 126A
+Rue : 
+
+Erreur, le nom de la rue doit contenir entre 1 et 50 caracteres... Recommencez.
+Rue : Pierre-Maxime
+Numero d'appartement (Taper ENTER si aucun apt.) : 4
+Ville : 
+
+Erreur, le nom de la ville doit contenir entre 1 et 50 caracteres... Recommencez.
+Ville : Sorel
+Province/etat : 
+
+Erreur, le nom de la province/etat doit contenir entre 1 et 50 caracteres... Recommencez.
+Province/etat : Quebec
+Pays : 
+
+Erreur, le nom du pays doit contenir entre 1 et 50 caracteres... Recommencez.
+Pays : Canada
+Code postal (Taper ENTER si aucun code postal) : t7t8h9
+Voulez-vous entrez un courriel (o/n) : O
+Courriel : 
+
+Erreur, le courriel doit contenir entre 5 et 100 caracteres... Recommencez.
+Courriel : bebert@hotmail.com
+Voulez-vous ajouter ce contact a vos favoris (o/n) : o
+
+-----
+MENU
+-----
+1. AJOUTER UN CONTACT
+2. SUPPRIMER UN CONTACT
+3. VIDER LE CARNET DE CONTACTS
+4. AFFICHER LES CONTACTS
+5. QUITTER
+
+Entrez votre choix au menu : 4
+
+*************************
+* AFFICHER LES CONTACTS *
+*************************
+
+1. AFFICHER TOUS LES CONTACTS
+2. AFFICHER LES FAVORIS
+
+Entrez votre choix : 1
+
+CARNET DE CONTACTS (2)
+
+
+-----------------
+LACOSTE, mathilde
+-----------------
+
+TELEPHONE(S) : Aucun.
+
+ADRESSE : Aucune.
+
+COURRIEL : Aucun.
+
+
+Appuyez sur "ENTREE" pour continuer...
+
+--------------------------
+BERTRAND, raymond [FAVORI]
+--------------------------
+
+TELEPHONE(S) : 
+1. TEL. DOMICILE : (232) 786-8899
+2. TEL. BUREAU : (333) 989-7653, poste 24
+3. TEL. CELLULAIRE : (234) 898-6677
+
+ADRESSE : 
+126A Pierre-Maxime, apt. 4
+Sorel, Quebec, CANADA
+T7T 8H9
+
+COURRIEL : bebert@hotmail.com
+
+FIN DE LA LISTE DE CONTACTS.
+
+Appuyez sur "ENTREE" pour continuer...
+
+-----
+MENU
+-----
+1. AJOUTER UN CONTACT
+2. SUPPRIMER UN CONTACT
+3. VIDER LE CARNET DE CONTACTS
+4. AFFICHER LES CONTACTS
+5. QUITTER
+
+Entrez votre choix au menu : 1
+
+**********************
+* AJOUT D'UN CONTACT *
+**********************
+
+Nom du contact : Caron
+Prenom du contact : Lucie
+Voulez-vous entrez un telephone (o/n) : o
+Type du telephone (Tapez ENTER pour "Domicile"): 
+Numero de telephone : 4563456
+Poste telephonique (Tapez ENTER si aucun poste) : 
+Voulez-vous entrez un telephone (o/n) : N
+Voulez-vous entrez une adresse (o/n) : o
+No de porte : 2345
+Rue : Des Pinsons
+Numero d'appartement (Taper ENTER si aucun apt.) : 
+Ville : Montreal
+Province/etat : Quebec
+Pays : Canada
+Code postal (Taper ENTER si aucun code postal) : 
+Voulez-vous entrez un courriel (o/n) : N
+Voulez-vous ajouter ce contact a vos favoris (o/n) : O
+
+-----
+MENU
+-----
+1. AJOUTER UN CONTACT
+2. SUPPRIMER UN CONTACT
+3. VIDER LE CARNET DE CONTACTS
+4. AFFICHER LES CONTACTS
+5. QUITTER
+
+Entrez votre choix au menu : 4
+
+*************************
+* AFFICHER LES CONTACTS *
+*************************
+
+1. AFFICHER TOUS LES CONTACTS
+2. AFFICHER LES FAVORIS
+
+Entrez votre choix : 1
+
+CARNET DE CONTACTS (3)
+
+
+-----------------
+LACOSTE, mathilde
+-----------------
+
+TELEPHONE(S) : Aucun.
+
+ADRESSE : Aucune.
+
+COURRIEL : Aucun.
+
+
+Appuyez sur "ENTREE" pour continuer...
+
+--------------------------
+BERTRAND, raymond [FAVORI]
+--------------------------
+
+TELEPHONE(S) : 
+1. TEL. DOMICILE : (232) 786-8899
+2. TEL. BUREAU : (333) 989-7653, poste 24
+3. TEL. CELLULAIRE : (234) 898-6677
+
+ADRESSE : 
+126A Pierre-Maxime, apt. 4
+Sorel, Quebec, CANADA
+T7T 8H9
+
+COURRIEL : bebert@hotmail.com
+
+
+Appuyez sur "ENTREE" pour continuer...
+
+---------------------
+CARON, Lucie [FAVORI]
+---------------------
+
+TELEPHONE(S) : 
+1. TEL. DOMICILE : 456-3456
+
+ADRESSE : 
+2345 Des Pinsons
+Montreal, Quebec, CANADA
+
+COURRIEL : Aucun.
+
+FIN DE LA LISTE DE CONTACTS.
+
+Appuyez sur "ENTREE" pour continuer...
+
+-----
+MENU
+-----
+1. AJOUTER UN CONTACT
+2. SUPPRIMER UN CONTACT
+3. VIDER LE CARNET DE CONTACTS
+4. AFFICHER LES CONTACTS
+5. QUITTER
+
+Entrez votre choix au menu : 4
+
+*************************
+* AFFICHER LES CONTACTS *
+*************************
+
+1. AFFICHER TOUS LES CONTACTS
+2. AFFICHER LES FAVORIS
+
+Entrez votre choix : 2
+
+CARNET DE CONTACTS (2)
+
+
+--------------------------
+BERTRAND, raymond [FAVORI]
+--------------------------
+
+TELEPHONE(S) : 
+1. TEL. DOMICILE : (232) 786-8899
+2. TEL. BUREAU : (333) 989-7653, poste 24
+3. TEL. CELLULAIRE : (234) 898-6677
+
+ADRESSE : 
+126A Pierre-Maxime, apt. 4
+Sorel, Quebec, CANADA
+T7T 8H9
+
+COURRIEL : bebert@hotmail.com
+
+
+Appuyez sur "ENTREE" pour continuer...
+
+---------------------
+CARON, Lucie [FAVORI]
+---------------------
+
+TELEPHONE(S) : 
+1. TEL. DOMICILE : 456-3456
+
+ADRESSE : 
+2345 Des Pinsons
+Montreal, Quebec, CANADA
+
+COURRIEL : Aucun.
+
+FIN DE LA LISTE DE CONTACTS.
+
+Appuyez sur "ENTREE" pour continuer...
+
+-----
+MENU
+-----
+1. AJOUTER UN CONTACT
+2. SUPPRIMER UN CONTACT
+3. VIDER LE CARNET DE CONTACTS
+4. AFFICHER LES CONTACTS
+5. QUITTER
+
+Entrez votre choix au menu : 5
+
+
+FIN NORMALE DU PROGRAMME.

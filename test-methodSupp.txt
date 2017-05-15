@@ -1,0 +1,140 @@
+////////// TESTS
+
+String strTest = null;
+String strTest = "";
+String strTest = "whatever";
+System.out.println(estNull(strTest));
+ystem.out.println(strNullVide(strTest));
+
+try {
+			//System.out.println(nomPrenomValide("", "Erreur - vide"));
+			//System.out.println(nomPrenomValide(null, "Erreur - null"));
+			System.out.println(nomPrenomValide("chaine entree sortie", "Erreur - null"));
+		} catch (Exception e) {
+			// TODO: handle exception
+			System.out.println(e.getMessage());
+		}
+
+Telephone [] nvTb = agrandirTab(telephones);
+    System.out.println(telephones.length + SEP[0] + nvTb.length);
+	
+	try {
+			//Telephone [] tabTel = {new Telephone(null, "1111111", null), null, new Telephone(null, "2222222", null)};
+			//Telephone [] tabTel = {null, new Telephone(null, "1111111", null), null, new Telephone(null, "2222222", null)};
+			//Telephone [] tabTel = {new Telephone(null, "1111111", null), new Telephone(null, "2222222", null), null};
+			//Telephone [] tabTel = {new Telephone(null, "1111111", null), new Telephone(null, "2222222", null)};
+    		Telephone [] tabTel = null; //Telephone [] tabTel = {};
+			System.out.println(premCaseLibre(tabTel));
+		} catch (Exception e) {
+			// TODO: handle exception
+			//System.out.println(e.getMessage());
+			System.out.println("telepone invalide");
+		}
+		
+		try {
+			Telephone [] tabTel = {new Telephone(null, "1111111", null), null, new Telephone(null, "2222222", null), null, new Telephone(null, "4004004000", null)};
+			//Telephone [] tabTel = {null, new Telephone(null, "1111111", null), null, new Telephone(null, "2222222", null)};
+			//Telephone [] tabTel = {new Telephone(null, "1111111", null), new Telephone(null, "2222222", null), null};
+			//Telephone [] tabTel = {new Telephone(null, "1111111", null), new Telephone(null, "2222222", null)};
+    		//Telephone [] tabTel = {};
+    		//Telephone [] tabTel = null; //
+    		telephones = tabTel;
+    		System.out.println(indiceIemeTel(3));
+    		System.out.println(obtenirIemeTelephone(3));
+				
+		}
+		
+		//String strTest = null;
+    	//String strTest = "";
+    	//String strTest = "a";
+    	//String strTest = "B";
+    	//String strTest = "be";
+    	String strTest = "bla blo bli";
+    	System.out.println(premCarMaj(strTest));
+		
+		
+try {
+        	//Contact contactTest = new Contact("n", "p");
+        	Contact contactTest = new Contact("n", "p", new Telephone(null, "5145140000", null), null, null);
+        	//System.out.println(contactTest.isFavori());
+        	contactTest.ajouterTelephone(new Telephone("cellulaire", "4380000000", null));
+        	contactTest.ajouterTelephone(new Telephone("cellulaire", "4384381111", null));
+        	//contactTest.setFavori(true);
+        	contactTest.setFavori(false);
+        	contactTest.modifierTelephone(2, "res.", "4504501000", "");
+        	contactTest.supprimerTelephone(1);
+        	
+        	System.out.println(contactTest.toString());
+		} catch (ContactInvalideException e) {
+			System.out.println(e.getMessage());
+		} catch (TelephoneInvalideException e) {
+			System.out.println("tel invalide");
+		}
+		
+		System.out.println(infoTelephone());//Test
+		System.out.println(infoAdresse());//Test
+	   
+	  
+//////////////////////////////////////////////////
+/////////// Methodes
+
+   public Contact(String nom, String prenom) throws ContactInvalideException {
+        if (!strNullVide(nom)) {
+			this.nom = nom;
+		} else {
+			throw new ContactInvalideException(MSG_ERR[0]);
+		}
+        
+        if (!strNullVide(prenom)) {
+			this.prenom = prenom;
+		} else {
+			throw new ContactInvalideException(MSG_ERR[1]);
+		}
+        
+        favori = false;
+        telephones = new Telephone [2];
+    } // Contact
+	
+	public void methodeTest() { //Methode Test
+    	
+	} // methodeTest
+	
+	//reponse = questionOuiNon(MSG_SOL_QUEST[0], MSG_ERR_REP);
+	
+	if (!afficherFavoris) {
+			   if (contacts[i] != null) {
+				   System.out.println(contacts[i]);
+				   pause(MSG_PAUSE);
+			   }
+		   } else {
+			   if (contacts[i] != null && ) {
+				   System.out.println(contacts[i]);
+				   pause(MSG_PAUSE);
+			   }
+		   }
+		   
+	/**
+     * Cette methode permet de mettre le 1er caractere d'une chaine en 
+     * majuscule et le reste en miniscule, si la chaine entree est null ca 
+     * retourne null et si la chaine entree est vide ca retourne une chaine 
+     * vide
+     *
+     * @param  str   chaine a transformer
+     * @return  la chaine avec la 1ere lettre en majuscule et le reste en 
+     * miniscule
+     */
+    private String premCarMaj(String str) {
+    	String strPrCarMaj = null;
+    	
+    	if (!estNull(str)) {
+			if (str.isEmpty()) {
+				strPrCarMaj = "";
+			} else {
+				strPrCarMaj = str.substring(0, 1).toUpperCase();
+				if (str.length() > 1) {
+					strPrCarMaj += str.substring(1).toLowerCase();
+				}
+			}
+		}
+		return strPrCarMaj;
+	}
